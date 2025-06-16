@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="BaseAttribute" load_steps=2 format=3 uid="uid://dlyqgrw8wsl30"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/Character_stat/Custom_Attributes/BaseAttribute.gd" id="1_2il17"]
+
+[resource]
+script = ExtResource("1_2il17")
+_name = "demo attribut"
+_value = 3.0

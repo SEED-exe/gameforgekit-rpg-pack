@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cniej4honetsn"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/gf_rpg_pack.gd" id="1_0ti2b"]
+
+[node name="GF_RPG_PACK" type="Node"]
+script = ExtResource("1_0ti2b")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dynbtg7uu5rxa"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/rpg_pack_behaviors.gd" id="1_r38tu"]
+
+[node name="RPG_PACK_BEHAVIORS" type="Node"]
+script = ExtResource("1_r38tu")

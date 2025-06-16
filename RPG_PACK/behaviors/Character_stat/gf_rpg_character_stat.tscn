@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bx70vt0qnksk5"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/Character_stat/gf_rpg_character_stat.gd" id="1_xlwuu"]
+
+[node name="GF_RPG_Character_stat" type="Node"]
+script = ExtResource("1_xlwuu")

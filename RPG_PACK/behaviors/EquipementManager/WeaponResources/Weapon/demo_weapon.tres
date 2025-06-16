@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="GF_WeaponItem" load_steps=5 format=3 uid="uid://co425invhq8sv"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/EquipementManager/WeaponResources/DamageType/DamageType.gd" id="1_ywman"]
+[ext_resource type="Texture2D" uid="uid://buqcqfd71lsxt" path="res://addons/GameForgeKit/RPG_PACK/behaviors/EquipementManager/sword.png" id="2_2usql"]
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/EquipementManager/WeaponResources/WeaponItem.gd" id="3_j4sna"]
+
+[sub_resource type="Resource" id="Resource_38yj3"]
+script = ExtResource("1_ywman")
+damage_type = 0
+value = 5.0
+
+[resource]
+script = ExtResource("3_j4sna")
+Damage_Type = Array[ExtResource("1_ywman")]([SubResource("Resource_38yj3")])
+Weapon_Type = 0
+weapon_name = "Default weapon"
+ID = "demo_weapon"
+description = "This is a default weapon."
+icon_texture = ExtResource("2_2usql")
+weapon_texture = ExtResource("2_2usql")
+weight = 0.0
+price = 0.0

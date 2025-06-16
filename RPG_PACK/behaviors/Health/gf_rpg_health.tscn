@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bya36dvw5m4og"]
+
+[ext_resource type="Script" path="res://addons/GameForgeKit/RPG_PACK/behaviors/Health/gf_rpg_health.gd" id="1_agaol"]
+
+[node name="GF_RPG_Health" type="Node"]
+script = ExtResource("1_agaol")
